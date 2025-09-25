@@ -1,0 +1,104 @@
+.header {
+    background: url('../images/banner-bg-tablet.jpg');
+    background-size: cover;
+}
+
+.container {
+    padding: 38px;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: end;
+}
+
+.burger-menu__icon {
+    position: relative;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../svg/iconBMenu.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.header__nav {
+    display: none;
+}
+
+
+.header__content {
+    max-width: 642px;
+}
+
+/* .popup__content {
+    min-width: 400px;
+} */
+
+.header__title {
+    font-size: 40px;
+}
+
+.trends .aside__title {
+    font-size: 18px;
+}
+
+.trends__cards {
+    flex-wrap: wrap;
+}
+
+.trends__card {
+    width: calc((100% - 1 * 4px) / 2);
+}
+
+.box {
+    gap: 35px;
+}
+
+.post {
+    display: block;
+    width: 100%;
+}
+
+.post_img {
+    width: 100%;
+}
+
+.category__list {
+    margin-top: 10px;
+}
+
+.post__title {
+    font-size: 17px;
+}
+
+
+.post__content {
+    margin-top: 34px;
+}
+
+.products .aside__title
+{
+    font-size: 18px;
+}
+
+.products__cards {
+    flex-wrap: wrap;
+    gap: 68px;
+}
+
+.products__card {
+    width: calc((100% - 1 * 68px) / 2);
+    flex-grow: 0;
+}
+
+.cr-two {
+    padding-bottom: 20px;
+}
+
+.products__title {
+    font-size: 17px;
+}

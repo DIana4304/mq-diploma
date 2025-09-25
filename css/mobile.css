@@ -1,0 +1,159 @@
+.header {
+    background: url('../images/banner-mobile.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: end;
+}
+
+.burger-menu__icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-image: url('../svg/iconBMenu.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    fill: aliceblue;
+    z-index: 3;
+}
+
+.header__menu {
+    display: block;
+    margin: 229px 0 42px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+.logo__img {
+    width: 269px;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__title {
+    font-size: 26px;
+}
+
+.popup__content {
+    min-width: 300px;
+    padding: 17px 30px;
+}
+
+.popup__close {
+    top: -40px;
+}
+
+.popup__content .aside__title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.popup__form-row {
+    margin-bottom: 10px;
+}
+
+
+.trends .aside__title {
+    font-size: 16px;
+}
+
+.trends__cards {
+    flex-direction: column;
+}
+
+.trends__card {
+    width: 100%;
+}
+
+.trends__content {
+    padding: 20px;
+}
+
+.trends__title-link {
+    font-size: 16px;
+}
+
+
+.box {
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main {
+    width: 100%;
+}
+
+.post {
+    display: block;
+    width: 100%;
+}
+
+.post_img {
+    width: 100%;
+}
+
+.category__list {
+    margin-top: 0;
+}
+
+.post__title {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.title-post__link {
+    margin-bottom: 10px;
+}
+
+.post__content {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.aside {
+    width: 100%;
+}
+
+.products .aside__title {
+    font-size: 16px;
+}
+
+.products__cards {
+    flex-direction: column;
+}
+
+.products__card {
+    width: 100%;
+}
+
+.products__title {
+    font-size: 17px;
+}
+
+@media (orientation: landscape) {
+    .trends__cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .trends__card {
+        width: calc((100% - 1 * 4px) / 2);
+    }
+
+    .trends__content {
+        padding: 10px;
+        line-height: 1;
+    }
+}
