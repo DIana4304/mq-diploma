@@ -34,10 +34,6 @@
     max-width: 642px;
 }
 
-/* .popup__content {
-    min-width: 400px;
-} */
-
 .header__title {
     font-size: 40px;
 }
@@ -56,6 +52,11 @@
 
 .box {
     gap: 35px;
+}
+
+.aside {
+    min-width: 271px;
+    max-width: 271px;;
 }
 
 .post {
